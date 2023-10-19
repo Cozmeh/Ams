@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "199120866837",
-    "project_id": "attendance-app-729e7",
-    "storage_bucket": "attendance-app-729e7.appspot.com"
+    "project_number": "195616232026",
+    "project_id": "ams2-6a979",
+    "storage_bucket": "ams2-6a979.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:199120866837:android:54b5998192e0b371e4481c",
+        "mobilesdk_app_id": "1:195616232026:android:4566b0443446e96ae03e63",
         "android_client_info": {
-          "package_name": "com.example.ftest"
+          "package_name": "com.example.ams"
         }
       },
       "oauth_client": [
         {
-          "client_id": "199120866837-6s9k9r8nphivl14h2qlddarbt589kvuj.apps.googleusercontent.com",
+          "client_id": "195616232026-3s30mv1jcu4amitj5f218aqc3rstqkg9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBzG0nBe1DK1A2_2EBlhJCbq2wce5XuQAI"
+          "current_key": "AIzaSyAJAHWmdBp2KWK0cyLvdQRevNYQ4bFnU6s"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "199120866837-6s9k9r8nphivl14h2qlddarbt589kvuj.apps.googleusercontent.com",
+              "client_id": "195616232026-3s30mv1jcu4amitj5f218aqc3rstqkg9.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "195616232026-i7lfkbquee0cfmlk3c9mlasd84kjq3j2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ftest"
+              }
             }
           ]
         }

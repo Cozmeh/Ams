@@ -7,6 +7,7 @@ import 'splashScreen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'ams2-6a979',
     options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(MaterialApp(

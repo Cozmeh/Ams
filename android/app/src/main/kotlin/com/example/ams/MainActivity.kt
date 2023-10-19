@@ -1,4 +1,4 @@
-package com.example.ftest
+package com.example.ams
 
 
 import android.content.Intent
