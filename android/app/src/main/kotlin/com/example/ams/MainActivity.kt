@@ -1,6 +1,5 @@
 package com.example.ams
 
-
 import android.content.Intent
 import android.nfc.NfcAdapter
 import android.util.Log
@@ -46,7 +45,9 @@ class MainActivity : FlutterActivity(){
                 nfcEventSink = eventSink
             }
 
-	@@ -46,102 +51,12 @@ class MainActivity : FlutterActivity() {
+            override fun onCancel(arguments: Any?) {
+                nfcEventSink = null
+            }
         })
     }
 
@@ -57,4 +58,6 @@ class MainActivity : FlutterActivity(){
         nfcScanIntent.putExtra("openForAll", openForAll)
         startActivity(nfcScanIntent)
     }
+
+
 }
